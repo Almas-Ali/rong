@@ -2,7 +2,7 @@
 
 #### Developed by [Md. Almas Ali][1]
 
-***Version 1.0.0***
+***Version 0.0.1***
 
 ## Installation
 It is very easy to install. Like as usual you can install it with `pip`.
@@ -12,33 +12,40 @@ pip install rong
 
 ## Documentation 
 
-There is 3 main usage of this module at this point.
+***Welcome to Rong documentation,*** <br>
+
+Here you will learn about a CLI tool which can add color into your CLI bashed project. Highly recomended module in python by developers. Its easy to use and easily adaptable to every lavel developers. Anyone can learn this in 10 min. <br>
+<a href="#examples">Give it a try ?</a>
+
 
 ### Project index's
 
-1. <a href="color-style-text">Color & Style codes</a><br>
-2. <a href="log-text">Log class</a><br>
-3. <a href="Mark-text">Mark class</a><br>
-4. <a href="highlight-text">Highlight class</a><br>
-5. <a href="text-text">Text class</a><br>
+1. <a href="#color-style-text">Color & Style codes</a><br>
+2. <a href="#log-text">Log class</a><br>
+3. <a href="#Mark-text">Mark class</a><br>
+4. <a href="#highlight-text">Highlight class</a><br>
+5. <a href="#text-text">Text class</a><br>
+6. <a href="#examples">Examples for practice</a><br>
 
-<br>
+
 <div id="color-style-class"></div>
 
-- All Colors for forground and background:
-    - `black`
-    - `red`
-    - `green`
-    - `yellow`
-    - `blue`
-    - `purple`
-    - `cyan`
-    - `white`
+- Color & Styles
 
-- All Styles:
-    - `underline` : for underlining text in console
-    - `bold` : for bolding text in console
-    - `clear` : for clearing all setted styles
+    - All Colors for forground and background:
+        - `black`
+        - `red`
+        - `green`
+        - `yellow`
+        - `blue`
+        - `purple`
+        - `cyan`
+        - `white`
+
+    - All Styles:
+        - `underline` : for underlining text in console
+        - `bold` : for bolding text in console
+        - `clear` : for clearing all setted styles
 
 <br>
 <div id="log-class"></div>
@@ -83,7 +90,7 @@ There is 3 main usage of this module at this point.
 
 2. `Mark` : A simple class for coloring manually in line
 
-    - To add color manually you need to use this class with some constant color binded into this class. You have to manually start the color as 
+    - To add color manually you need to use this class with some constant color which is binded into this class. You have to manually start the color as, this example bellow:
 
     ```python
     print(f"This is a {Mark.GREEN}sample Mark{Mark.END} test.")
@@ -137,6 +144,8 @@ There is 3 main usage of this module at this point.
 
 <br>
 
+<div id="examples"></div>
+
 Some sample codes are for text.
 
 ```python
@@ -177,6 +186,12 @@ text2 = Text(text='Demo', styles=['clear'])
 text2.print()
 
 ```
+
+> Everything is open source. You can contribute in this project by submitting a issue or fixing a problem and make pull request.
+
+Made with love by © *Md. Almas Ali*
+<br>
+LICENSE under MIT
 
 
 [1]: <https://github.com/Almas-Ali> "Md. Almas Ali"
