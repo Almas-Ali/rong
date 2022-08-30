@@ -149,14 +149,28 @@ Here you will learn about a CLI tool which can add color into your CLI bashed pr
 Some sample codes are for text.
 
 ```python
+from rong import *
+
 # In line Log display 
 print(f"I am {Log.waitmsg('Almas')} Ali")
+print(f"I am {Log.errormsg('Almas')} Ali")
+print(f"I am {Log.warning('Almas')} Ali")
+print(f"I am {Log.primary('Almas')} Ali")
 
 # In line color with custom parameter 
 print(f"{Mark.BLUE} Hi, {Mark.END}")
+print(f"{Mark.RED} Hi, {Mark.END}")
+print(f"{Mark.GREEN} Hi, {Mark.END}")
+print(f"{Mark.CYAN} Hi, {Mark.END}")
+print(f"This is a {Mark.GREEN}sample Mark{Mark.END} test.")
 
 # In line text highlighting 
 print(f"Enjoy {Highlight.red('Almas')}")
+print(f"Enjoy {Highlight.bred('Almas')}")
+print(f"Enjoy {Highlight.blue('Almas')}")
+print(f"Enjoy {Highlight.bblue('Almas')}")
+print(f"Enjoy {Highlight.yellow('Almas')}")
+print(f"Enjoy {Highlight.byellow('Almas')}")
 
 # Working with Text objects 
 # Creating Text class object 
@@ -182,9 +196,12 @@ text.print()
 print(text)
 
 # Doing everything in one line
+text1 = Text(text='Demo1', styles=['bold'], fg='blue', bg='white')
+text1.print()
+
+# Clearing all styles 
 text2 = Text(text='Demo', styles=['clear'])
 text2.print()
-
 ```
 
 > Everything is open source. You can contribute in this project by submitting a issue or fixing a problem and make pull request.
