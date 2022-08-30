@@ -4,6 +4,9 @@
 
 ***Version 0.0.1***
 
+[![LICENSE](https://img.shields.io/github/license/dwisiswant0/WiFiID.svg "LICENSE")](LICENSE)
+![Image](https://raw.githubusercontent.com/Almas-Ali/rong/master/logo.png)
+
 ## Installation
 It is very easy to install. Like as usual you can install it with `pip`.
 ```bash
