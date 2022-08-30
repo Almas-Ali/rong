@@ -20,11 +20,11 @@ Here you will learn about a CLI tool which can add color into your CLI bashed pr
 
 ### Project index's
 
-1. <a href="#color-style-text">Color & Style codes</a><br>
-2. <a href="#log-text">Log class</a><br>
-3. <a href="#Mark-text">Mark class</a><br>
-4. <a href="#highlight-text">Highlight class</a><br>
-5. <a href="#text-text">Text class</a><br>
+1. <a href="#color-style-class">Color & Style codes</a><br>
+2. <a href="#log-class">Log class</a><br>
+3. <a href="#mark-class">Mark class</a><br>
+4. <a href="#highlight-class">Highlight class</a><br>
+5. <a href="#text-class">Text class</a><br>
 6. <a href="#examples">Examples for practice</a><br>
 
 

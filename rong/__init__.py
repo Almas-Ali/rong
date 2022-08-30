@@ -1,3 +1,10 @@
+'''
+Rong - A colorizing console tool for Python 3 (open source)
+Developed by Almas Ali
+Aim to make console coloring easy and fun for developers. Easy to use and easy to customizable.
+'''
+
+__version__ = '0.0.1'
 
 class Log:
 	'''Log write color text'''
@@ -69,7 +76,6 @@ class Log:
 class Mark:
 	'''Mark color text'''
 	
-	
 	UNDERLINE = '\033[4m'
 	BOLD = '\033[1m'
 	
@@ -115,21 +121,6 @@ class Mark:
 		'cyan' : '\033[2;46m',
 		'white' : '\033[2;47m',
 	}
-	
-	'''
-	# \033[1;34;45m
-	# \033[2;31;43m
-	# \033[0;0m
-Foreground	Background
-Black	30	Black	40
-Red	31	Red	41
-Green	32	Green	42
-Yellow	33	Yellow	43
-Blue	34	Blue	44
-Purple	35	Purple	45
-Cyan	36	Cyan	46
-White	37	White	47
-'''
 	
 	STYLES = {
 		'underline' : UNDERLINE,
@@ -198,7 +189,6 @@ class Text(Mark):
 		self.bg = Mark.BG_COLORS.get(color)
 	
 	def style(self, styles:list):
-		#self._style(styles)
 		self.st:str = ''.join([Mark.STYLES.get(i) for i in styles])
 		return self.st
 	
@@ -212,19 +202,4 @@ class Text(Mark):
 		try:
 			return self.fg + self.bg + self.st + self.text + self.END
 		except:
-			raise "[ ! ] Error"
-
-#print(f"I am {Log.waitmsg('Almas')} Ali")
-#print(f"{Mark.BLUE} Hi, {Mark.END}")
-#print(f"Enjoy {Highlight.red('Almas')}")
-
-text = Text(text='Almas Ali')
-text.foreground('blue')
-text.foreground('purple')
-text.background('white')
-text.style(styles=['bold', 'underline'])
-text.update(text=' New text ')
-text.print()
-
-text2 = Text(text='Demo', styles=['clear'])
-text2.print()
+			raise "[!] Error"
