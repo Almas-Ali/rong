@@ -263,6 +263,7 @@ text2.print()
 > Everything is open source. You can contribute in this project by submitting a issue or fixing a problem and make pull request.
 
 <br>
+
 Made with love by © *Md. Almas Ali*
 <br>
 LICENSE under MIT
