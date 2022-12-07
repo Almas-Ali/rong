@@ -1,10 +1,10 @@
-# Rong - A console color utility for python console app
+# Rong - A console coloring utility for Python console apps
 
 #### Developed by [Md. Almas Ali][1]
 
-***Version 0.0.1***
+***Version 0.0.2***
 
-[![LICENSE](https://img.shields.io/github/license/dwisiswant0/WiFiID.svg "LICENSE")](LICENSE)
+[![LICENSE](https://img.shields.io/github/license/dwisiswant0/WiFiID.svg "LICENSE")](LICENSE) <br>
 ![Image](https://raw.githubusercontent.com/Almas-Ali/rong/master/logo.png)
 
 ## Installation
@@ -29,6 +29,7 @@ Here you will learn about a CLI tool which can add color into your CLI bashed pr
 4. <a href="#highlight-class">Highlight class</a><br>
 5. <a href="#text-class">Text class</a><br>
 6. <a href="#examples">Examples for practice</a><br>
+7. <a href="#latestChanges">Latest changes history</a><br>
 
 
 <div id="color-style-class"></div>
@@ -44,11 +45,54 @@ Here you will learn about a CLI tool which can add color into your CLI bashed pr
         - `purple`
         - `cyan`
         - `white`
+		- `orange`
+		- `tomato`
+		- `pink`
+		- `violet`
+		- `gray`
+		- `darkgreen`
+		- `gold`
+		- `yellowgreen`
+		- `sandybrown`
+		- `darkred`
+
+		- `lightgray`
+		- `lightblue`
+		- `lightgreen`
+		- `lightyellow`
+		- `lightpurple`
+		- `lightcyan`
+		- `lightwhite`
+		- `lightseagreen`
+		- `lightred`
+		- `lightpink`
+		- `lightorange`
+		- `lightviolet`
+
+		- `transparent`
 
     - All Styles:
-        - `underline` : for underlining text in console
+		- `blink` : for blinking text in console
         - `bold` : for bolding text in console
         - `clear` : for clearing all setted styles
+		- `concealed` : for concealing text in console
+		- `invisible` : for making text invisible in console
+		- `italic` : for italicizing text in console
+		- `overline` : for overlining text in console
+		- `reverse` : for reversing text in console
+		- `strike` : for strike text in console
+		- `underline` : for underlining text in console
+		- `underline-solid` : for solid underlining text in console
+		- `underline-wavy` : for wavy underlining text in console
+		- `underline-double` : for double underlining text in console
+		- `underline-dotted` : for dotted underlining text in console
+		- `underline-dashed` : for dashed underlining text in console
+
+	- **NOTE :**
+		1. You can use `clear` to clear all setted styles.
+		2. When you use `underline` it will be `underline-solid` by default.
+		3. `underline-wavy`, `underline-dotted` and `underline-dashed` underline is not supported in all terminals.
+
 
 <br>
 <div id="log-class"></div>
@@ -142,7 +186,7 @@ Here you will learn about a CLI tool which can add color into your CLI bashed pr
 
     - All in one in a single line : 
     ```python
-    Text(text="Single line test", styles=["bold", "underline"])
+    Text(text="Single line test", styles=["bold", "underline-solid"])
     ```
 
 <br>
@@ -212,6 +256,12 @@ text2.print()
 Made with love by © *Md. Almas Ali*
 <br>
 LICENSE under MIT
+
+<div id="latestChanges"></div>
+
+## Change History :
+**0.0.2** - Fixed default background issue, added huge amonut of colors and styles varient. Added more examples and documentation. <br>
+**0.0.1** - Initialized this project and written all this codes.
 
 
 [1]: <https://github.com/Almas-Ali> "Md. Almas Ali"
