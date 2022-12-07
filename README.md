@@ -251,17 +251,20 @@ text2 = Text(text='Demo', styles=['clear'])
 text2.print()
 ```
 
-> Everything is open source. You can contribute in this project by submitting a issue or fixing a problem and make pull request.
-
-Made with love by © *Md. Almas Ali*
-<br>
-LICENSE under MIT
 
 <div id="latestChanges"></div>
 
 ## Change History :
 **0.0.2** - Fixed default background issue, added huge amonut of colors and styles varient. Added more examples and documentation. <br>
 **0.0.1** - Initialized this project and written all this codes.
+
+
+
+> Everything is open source. You can contribute in this project by submitting a issue or fixing a problem and make pull request.
+
+Made with love by © *Md. Almas Ali*
+<br>
+LICENSE under MIT
 
 
 [1]: <https://github.com/Almas-Ali> "Md. Almas Ali"
