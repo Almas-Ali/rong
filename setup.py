@@ -15,8 +15,8 @@ classifiers = [
 
 setuptools.setup(
     name="rong",
-    version="0.0.1",
-    description="rong - A console coloring tool for Python 3 (open source).",
+    version="0.0.2",
+    description="rong - A console coloring utility for Python 3 (open source).",
     long_description_content_type="text/markdown",
     long_description=long_description,
     url="https://github.com/almas-ali/rong",
