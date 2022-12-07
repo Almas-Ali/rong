@@ -264,7 +264,7 @@ text2.print()
 
 <br>
 
-Made with love by © *Md. Almas Ali*
+Made with love by © ***Md. Almas Ali***
 <br>
 LICENSE under MIT
 
