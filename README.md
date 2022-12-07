@@ -258,10 +258,11 @@ text2.print()
 **0.0.2** - Fixed default background issue, added huge amonut of colors and styles varient. Added more examples and documentation. <br>
 **0.0.1** - Initialized this project and written all this codes.
 
-
+<br>
 
 > Everything is open source. You can contribute in this project by submitting a issue or fixing a problem and make pull request.
 
+<br>
 Made with love by © *Md. Almas Ali*
 <br>
 LICENSE under MIT
